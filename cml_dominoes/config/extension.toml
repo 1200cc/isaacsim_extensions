@@ -1,0 +1,23 @@
+[package]
+title = "Dominoes"
+version = "1.0.0"
+authors = ["Chungmin Liu"]
+description = "Convert an image into a colorful domino block display in Isaac Sim."
+readme = """
+# Dominoes
+[LinkedIn](https://www.linkedin.com/in/idkfa/)
+"""
+changelog = """
+## 1.0.0
+- Initial release.
+"""
+preview_image = "cml_dominoes.png"
+icon = "cml_dominoes_icon.png"
+
+[dependencies]
+"omni.kit.window.filepicker" = {}
+"omni.kit.menu.utils" = {}
+"omni.timeline" = {}
+
+[[python.module]]
+name = "cml_dominoes"
