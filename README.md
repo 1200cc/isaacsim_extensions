@@ -41,6 +41,4 @@ Then enable `cml_dominoes` in Extension Manager.
 
 A USD stage must be open before generating.
 
-## LinkedIn
-
 [LinkedIn](https://www.linkedin.com/in/idkfa/)
