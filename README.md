@@ -40,5 +40,3 @@ Then enable `cml_dominoes` in Extension Manager.
 4. Click **Generate** while the simulation is stopped.
 
 A USD stage must be open before generating.
-
-[LinkedIn](https://www.linkedin.com/in/idkfa/)
