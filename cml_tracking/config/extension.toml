@@ -1,0 +1,26 @@
+[package]
+title = "Tracking"
+version = "1.0.0"
+authors = ["Chungmin Liu"]
+description = "Follow a selected object's motion in the viewport while keeping the camera level."
+readme = """
+# Tracking
+[LinkedIn](https://www.linkedin.com/in/idkfa/)
+"""
+changelog = """
+## 1.0.0
+- Initial release.
+"""
+preview_image = "cml_tracking.png"
+icon = "cml_tracking_icon.png"
+
+[dependencies]
+"isaacsim.core.utils" = {}
+"isaacsim.core.experimental.utils" = {}
+"isaacsim.core.experimental.prims" = {}
+"isaacsim.core.rendering_manager" = {}
+"omni.kit.viewport.utility" = {}
+"omni.usd" = {}
+
+[[python.module]]
+name = "cml_tracking"
