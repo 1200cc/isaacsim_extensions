@@ -3,21 +3,15 @@
 A collection of custom extensions for NVIDIA Isaac Sim.
 
 ## Install
-
-Add this repository folder to the Kit extension search paths:
-
+Clone the repository:
 ```text
-C:\dev\isaacsim_extensions
+git clone https://github.com/1200cc/isaacsim_extensions.git
 ```
-
-Alternatively, append this argument to the Isaac Sim launch command:
-
+Add the cloned folder to the Kit extension search paths, or append this argument to the Isaac Sim launch command:
 ```text
---ext-folder "C:\dev\isaacsim_extensions"
+--ext-folder "<path-to>/isaacsim_extensions"
 ```
-
 Open **Window > Extensions** and enable the extensions you want to use:
-
 - `cml_conveyor_sketcher`
 - `cml_dominoes`
 - `cml_tracking`
