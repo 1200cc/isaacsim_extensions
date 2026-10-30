@@ -1,0 +1,24 @@
+[package]
+title = "Conveyor Sketcher"
+version = "1.0.0"
+authors = ["Chungmin Liu"]
+description = "Draw ground-plane polylines, generate Conveyor Track Builder straight conveyors, and set conveyor velocity."
+readme = """
+# Conveyor Sketcher
+[LinkedIn](https://www.linkedin.com/in/idkfa/)
+"""
+changelog = """
+## 1.0.0
+- Initial release.
+"""
+preview_image = "cml_conveyor_sketcher.png"
+icon = "cml_conveyor_sketcher_icon.png"
+
+[dependencies]
+"isaacsim.asset.gen.conveyor.ui" = {}
+"omni.kit.manipulator.camera" = {}
+"omni.kit.viewport.registry" = {}
+"omni.kit.viewport.utility" = {}
+
+[[python.module]]
+name = "cml_conveyor_sketcher"

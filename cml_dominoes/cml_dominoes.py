@@ -73,7 +73,7 @@ class Extension(omni.ext.IExt):
 
 	def _show_main_window(self):
 		if self._main_window is None:
-			self._main_window = ui.Window("Dominos", width=440, height=380)
+			self._main_window = ui.Window("Dominoes", width=440, height=380)
 			with self._main_window.frame:
 				with ui.VStack(spacing=1):
 					with ui.HStack(height=24, spacing=4):
@@ -164,7 +164,7 @@ class Extension(omni.ext.IExt):
 				raise RuntimeError("No USD stage is open")
 			if not stage.GetPrimAtPath("/World").IsValid():
 				UsdGeom.Xform.Define(stage, "/World")
-			root_path = "/World/DominosImage"
+			root_path = "/World/DominoesImage"
 			if self._generated_root_path and self._generated_root_path != root_path and stage.GetPrimAtPath(self._generated_root_path).IsValid():
 				stage.RemovePrim(Sdf.Path(self._generated_root_path))
 			if stage.GetPrimAtPath(root_path).IsValid():

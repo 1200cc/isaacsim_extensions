@@ -16,10 +16,33 @@ Alternatively, append this argument to the Isaac Sim launch command:
 --ext-folder "C:\dev\isaacsim_extensions"
 ```
 
-Open **Window > Extensions** and enable either or both extensions:
+Open **Window > Extensions** and enable the extensions you want to use:
 
+- `cml_conveyor_sketcher`
 - `cml_dominoes`
 - `cml_tracking`
+
+## Conveyor Sketcher
+
+Draw conveyor routes in the viewport and generate conveyors from Conveyor Track Builder assets.
+
+![Conveyor Sketcher demo](cml_conveyor_sketcher/cml_conveyor_sketcher.gif)
+
+### Features
+
+- Previews a route as you place points on the ground plane.
+- Generates straight conveyor sections and 90- or 180-degree curves.
+- Splits long straight runs into full-length and partial conveyor sections.
+- Sets velocity on generated conveyors or selected conveyor graphs.
+
+### Use
+
+1. Open a USD stage and open **Tools > CML > Conveyor Sketcher**.
+2. Set the conveyor velocity.
+3. Click **Start Drawing**, then click the ground plane to place route points.
+4. Click **Finish Drawing**, then click **Generate**.
+
+Each drawing creates a new group in the Stage. Curve generation requires a Z-up stage.
 
 ## Dominoes Image Generator
 
