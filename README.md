@@ -18,9 +18,30 @@ Alternatively, append this argument to the Isaac Sim launch command:
 
 Open **Window > Extensions** and enable the extensions you want to use:
 
+- `cml_minimap`
 - `cml_conveyor_sketcher`
 - `cml_dominoes`
 - `cml_tracking`
+
+## Minimap
+
+Show a semi-transparent top-down map of the visible USD geometry, with fixed-XY and follow-camera modes.
+
+![Minimap demo](cml_minimap/cml_minimap.gif)
+
+### Features
+
+- Represents visible geometry as small yellow rectangles and selected geometry in green.
+- Marks the active viewport camera's COI in red.
+- Defaults to fixed XY with world +Y at the top; Follow Camera rotates the map so the horizontal camera-forward direction points up.
+- Updates the map when stage geometry changes.
+- Click or drag on the map to pan the camera and COI across the XY plane while preserving camera height and orientation.
+- Can be resized and stays anchored to the viewport's bottom-right corner.
+
+### Use
+
+1. Open a USD stage and open **Tools > CML > Minimap**.
+2. Click or drag on the map to move the viewport camera.
 
 ## Conveyor Sketcher
 

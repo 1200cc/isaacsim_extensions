@@ -1,0 +1,26 @@
+[package]
+title = "Minimap"
+version = "1.0.0"
+authors = ["Chungmin Liu"]
+description = "Interactive semi-transparent minimap with fixed-XY and camera-heading modes, selected-prim highlighting, and a camera COI marker."
+readme = """
+# Minimap
+[LinkedIn](https://www.linkedin.com/in/idkfa/)
+"""
+changelog = """
+## 1.0.0
+- Added a semi-transparent viewport minimap with geometry markers and an active-camera indicator.
+- Provides fixed-XY and follow-camera heading modes, with fixed XY as the default.
+- Changes selected prim geometry markers from yellow to green.
+- Supports camera panning by clicking or dragging on the minimap.
+"""
+preview_image = "cml_minimap.png"
+icon = "cml_minimap_icon.png"
+
+[dependencies]
+"omni.kit.menu.utils" = {}
+"omni.kit.viewport.utility" = {}
+"omni.usd" = {}
+
+[[python.module]]
+name = "cml_minimap"
